@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+body {
+    background-color: #181719;
+    color: #FFFFFF;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin-right: 86px;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav li a:hover {
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    transition: all 200ms;
+}
+
+.logo {
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 125px;
+    height: 32px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Crimson Pro;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    text-transform: uppercase;
+    margin: 8px;
+}
+
+main {
+    margin-top: 65px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.left h1 {
+    margin-top: 70px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 61px;
+}
+
+.left p {
+    width: 370px;
+    height: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.left a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.right {
+    position: relative;
+    margin-right: 43px;
+}
+
+.right .img img {
+    width: 600px;
+    height: 400.53px;
+}
+
+.profil {
+    position: absolute;
+    width: 330px;
+    height: 170px;
+    background: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    right: 34px;
+    top: 340px;
+}
+
+.top {
+    display: flex;
+}
+
+.top img {
+    width: 62.2px;
+    height: 62.68px;
+    border-radius: 50%;
+    margin: 9px 15px;
+}
+
+.about {
+    width: 148px;
+}
+
+.about h4 {
+    margin-top: 23px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.about p {
+    margin-top: -10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.botom h2 {
+    margin-left: 19px;
+    margin-top: -1px;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 138px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
